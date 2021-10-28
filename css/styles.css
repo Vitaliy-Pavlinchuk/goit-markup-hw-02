@@ -1,0 +1,29 @@
+
+:root{
+    --main-title-color:#212121;
+    --accent-color:#2196f3;
+}
+
+
+
+
+
+.body{
+
+}
+
+/* Навигация */
+.nav-link{
+   color: var(--main-title-color);
+   font-weight: 500;
+   font: size 14px;
+   line-height:1.14;
+   letter-spacing:0.02em ;  
+}
+
+.nav-link:focus .nav-link:hover{
+    color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
