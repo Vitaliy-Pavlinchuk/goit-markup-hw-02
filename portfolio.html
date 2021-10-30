@@ -16,13 +16,13 @@
     <!-- Навигация -->
     <nav >
         <!-- Логотип -->
-        <a href="./index.html" class="logo link"> Web<span class="logo-span">Studio</span> </a>
+        <a href="./index.html" > Web<span class="logo-span">Studio</span> </a>
 
         <!-- ссылки в шапке сайта  -->
-        <ul class="site-nav list">
-            <li> <a href="./index.html" class="link">Студия </a></li>
-            <li> <a href="./portfolio.html" class="link current">Портфолио</a></li>
-            <li> <a href="" class="link">Контакты</a></li>
+        <ul>
+            <li> <a class="link nav-link" href="./index.html">Студия </a></li>
+            <li> <a class="link nav-link current" href="./portfolio.html">Портфолио</a></li>
+            <li> <a class="link nav-link" href="" class="link">Контакты</a></li>
         </ul>
     </nav>
     <!-- Почта и телефон -->
@@ -40,14 +40,14 @@
 <section> 
     <h1 class="fake-title">button</h1>     
     <ul class=" list">
-        <li><button type="button" class="bt-portfolio" > Все </button></li>
-        <li ><button type="button" class="bt-portfolio"> Веб-сайты </button></li>
-        <li ><button type="button" class="bt-portfolio"> Приложения </button></li>
-        <li ><button type="button" class="bt-portfolio"> Дизайн</button></li>
-        <li ><button type="button" class="bt-portfolio"> Маркетинг</button></li>
+        <li><button class="btn" type="button"  > Все </button></li>
+        <li ><button class="btn" type="button" > Веб-сайты </button></li>
+        <li ><button class="btn" type="button" > Приложения </button></li>
+        <li ><button class="btn" type="button" > Дизайн</button></li>
+        <li ><button class="btn" type="button" > Маркетинг</button></li>
     </ul>
 </section>
-         <!-- Секция проекты  -->
+        <!-- Секция проекты  -->
 <section>
     <ul class="list">
         <li> <a href=""> <img src="./images/portfolio1.jpg" alt="ноутбук" width="370"></a>
@@ -73,7 +73,7 @@
         <li> <a href=""> <img src="./images/portfolio6.jpg" alt=""></a>
         <h2>Inspiration has no Borders</h2>
         <p>Веб-сайт</p>
-         </li>
+        </li>
         <li> <a href=""> <img src="./images/portfolio7.jpg" alt=""></a>
         <h2>Издание Limited Edition</h2>
         <p>Дизайн</p>
@@ -89,26 +89,21 @@
     </ul>
 </section>
 <!--Футер с ссылкой на  контактные данные  -->
-<footer class="footer">
-    <!-- Логотип -->
-      <a href="./index.html" class="logo link"> Web<span class="logo-footer">Studio</span> </a>
-      <!-- Адрес -->
-      <address class="adress">
-        <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-     <ul class="tel-mail-footer list">
-        <!-- Почта и телефон -->
-        <li>
-          <a class="contacts-footer link" href="mailto:info@devstudio.com" >
-            info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contacts-footer link" href="tel:+380961111111" > +38 096 111 11 11</a>
-        </li>
-      </ul>
+    <footer class="footer">
+        <!-- Логотип -->
+        <a class="link logo" href="./index.html"> Web<span class="logo-footer-styles">Studio</span> </a>
+        <!-- Адрес -->
+        <address>
+            <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+            
+            <!-- Почта и телефон -->
+            <ul class="list">
+                <li class="footer-contacts link"> <a href="mailto:info@example.com"></a> info@example.com </li>
+                <li class="footer-contacts link"> <a href="tel:+380991111111"></a> +38 099 111 11 11 </li> 
+            </ul>
+        </address>
         
-      </address>
-</footer>
+    </footer>
 </body>
 </html>
 
