@@ -142,7 +142,6 @@ body {
   text-transform: uppercase;
 }
 .text {
-  font-weight: 400;
   font-size: 14;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -166,7 +165,6 @@ body {
   letter-spacing: 0.03em;
 }
 .text-carts {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -179,7 +177,6 @@ body {
 /* Адрес */
 .footer-text {
   color: var(--portfolio-btn-accent-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -208,7 +205,6 @@ body {
 }
 
 .work-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
